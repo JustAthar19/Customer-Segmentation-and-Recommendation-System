@@ -4,7 +4,7 @@
 
 ## 📌 Overview
 A data science project that:
-1. **Segments customers** using clustering (K-Means, RFM, or DBSCAN) based on purchasing behavior.
+1. **Segments customers** using clustering (K-Means) based on purchasing behavior.
 2. **Recommends products** via collaborative filtering (Matrix Factorization) or content-based filtering.
 3. Optimizes marketing strategies by identifying high-value customer groups.
 
@@ -16,7 +16,6 @@ A data science project that:
 - **Recommendation Engine**:
   - User-user and item-item similarity.
   - Hybrid (collaborative + content-based) approach.
-- **Deployment**: Flask/Streamlit demo (optional).
 
 ## 🛠️ Tech Stack
 - **Data Processing**: `Python` | `Pandas` | `NumPy`
@@ -26,11 +25,6 @@ A data science project that:
 - **Visualization**: `Matplotlib` | `Seaborn` | `Plotly`
 
 ## 📂 Dataset
-- Source: [Kaggle E-Commerce Data](https://www.kaggle.com/datasets/...) (e.g., "Online Retail" or "Amazon Product Reviews").
+- Source: [Kaggle E-Commerce Data](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
 - Preprocessing: Handled missing values, outliers, and encoded categorical features.
 
-## 🚀 Usage
-```bash
-git clone https://github.com/yourusername/ecommerce-segmentation-recsys.git
-pip install -r requirements.txt
-jupyter notebook segmentation_and_recommendations.ipynb
